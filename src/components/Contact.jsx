@@ -28,7 +28,7 @@ function Contact() {
           LinkedIn
         </a>
 
-        <a href="/cv-gloria.pdf" download className="cv-button">
+        <a href="Curriculum.pdf" download className="cv-button">
           Descargar CV
         </a>
       </div>
