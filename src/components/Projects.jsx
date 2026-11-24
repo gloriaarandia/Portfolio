@@ -1,18 +1,19 @@
 const proyectos = [
   {
-    nombre: "Web de una cafetería",
-    descripcion: "Una página hecha con HTML y CSS.",
-    imagen: "cafetería.png",
-    url: "https://p-gina-cafeter-a-yg92.vercel.app/",
-    github: "https://github.com/gloriaarandia/P-gina-cafeter-a.git"
+    nombre: "Plantilla del Atlético de Madrid",
+    descripcion:
+      "Aplicación web full-stack desarrollada con Angular, Spring Boot y base de datos en la nube para consultar la alineación titular sobre el campo, filtrar la plantilla y ver las estadísticas de cada jugador.",
+    imagen: "atleti-plantilla.png",
+    url: "https://atleti-plantilla.vercel.app/",
+    github: "https://github.com/gloriaarandia/atleti-plantilla.git"
   },
   {
-    nombre: "Aplicación de gestión de biblioteca",
+    nombre: "Moodboard",
     descripcion:
-      "Aplicación desarrollada en Java desde Eclipse, conectada a una base de datos para gestionar la información de una biblioteca.",
-    imagen: "biblioteca.png",
-    url: "https://github.com/gloriaarandia/Biblioteca-JPA.git",
-    github: "https://github.com/gloriaarandia/Biblioteca-JPA.git"
+      "Plataforma de descubrimiento cultural basada en atmósferas con Angular y Spring Boot. Combina películas y libros (TMDB y Google Books), paletas de colores con ColorThief y bandas sonoras con pre-escucha (Deezer), además de filtros por estado de ánimo, ruleta aleatoria y gestión de favoritos.",
+    imagen: "moodboard.png",
+    url: "moodboard-eight-roan.vercel.app/",
+    github: "https://github.com/gloriaarandia/Moodboard.git"
   },
   {
     nombre: "Calculadora",
