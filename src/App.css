@@ -182,20 +182,3 @@
     border-right-color: var(--border);
   }
 }
-
-.project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 12px;
-  margin-bottom: 18px;
-}
-
-.project-badge {
-  font-size: 0.8rem;
-  padding: 4px 12px;
-  border-radius: 999px;
-  background-color: rgba(255, 255, 255, 0.06);
-  color: #cbd5e1;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-}
