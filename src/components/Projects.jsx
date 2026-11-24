@@ -3,7 +3,7 @@ const proyectos = [
     nombre: "Plantilla del Atlético de Madrid",
     descripcion:
       "Aplicación web full-stack desarrollada con Angular, Spring Boot y base de datos en la nube para consultar la alineación titular sobre el campo, filtrar la plantilla y ver las estadísticas de cada jugador.",
-    imagen: "atleti-plantilla.png",
+    imagen: "plantilla.png",
     url: "https://atleti-plantilla.vercel.app/",
     github: "https://github.com/gloriaarandia/atleti-plantilla.git"
   },
