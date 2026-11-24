@@ -51,10 +51,9 @@ function Projects() {
 
             {proyecto.tecnologias && (
               <div className="project-tags">
-                {proyecto.tecnologias.map((tech, index) => (
-                  <span key={tech} className="project-tag">
+                {proyecto.tecnologias.map((tech) => (
+                  <span key={tech} className="project-badge">
                     {tech}
-                    {index < proyecto.tecnologias.length - 1 && " · "}
                   </span>
                 ))}
               </div>
