@@ -5,7 +5,10 @@ const tecnologias = [
   "Java",
   "SQL",
   "WordPress",
-  "React"
+  "React",
+  "Angular", 
+  "Spring Boot",
+  "Typescript"
 ];
 
 function About() {

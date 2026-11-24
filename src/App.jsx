@@ -16,8 +16,8 @@ function App() {
         <h1>Desarrolladora web</h1>
 
         <p className="hero-descripcion">
-          Estoy aprendiendo a crear páginas web y aplicaciones
-          utilizando diferentes tecnologías.
+          Desarrollo aplicaciones web full-stack y interfaces modernas con Angular, 
+          React y Spring Boot
         </p>
 
         <a href="#proyectos" className="hero-button">

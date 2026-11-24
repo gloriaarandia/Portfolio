@@ -1,4 +1,4 @@
-const tecnologias = ["HTML", "CSS", "JavaScript", "Java", "SQL", "WordPress", "React"];
+const tecnologias = ["HTML", "CSS", "JavaScript", "Java", "SQL", "WordPress", "React", "Angular", "Spring Boot", "Typescript"];
 
 function TechMarquee() {
   return (

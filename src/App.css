@@ -182,3 +182,16 @@
     border-right-color: var(--border);
   }
 }
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.project-tag {
+  white-space: nowrap;
+}

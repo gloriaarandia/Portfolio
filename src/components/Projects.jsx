@@ -2,7 +2,8 @@ const proyectos = [
   {
     nombre: "Plantilla del Atlético de Madrid",
     descripcion:
-      "Aplicación web full-stack desarrollada con Angular, Spring Boot y base de datos en la nube para consultar la alineación titular sobre el campo, filtrar la plantilla y ver las estadísticas de cada jugador.",
+      "Aplicación full-stack: API REST propia con Spring Boot y Spring Data JPA, base de datos MySQL en la nube y frontend en Angular con búsqueda, filtros y ordenación. Los datos son de ejemplo.",
+    tecnologias: ["Angular", "Spring Boot", "MySQL"],
     imagen: "plantilla.png",
     url: "https://atleti-plantilla.vercel.app/",
     github: "https://github.com/gloriaarandia/atleti-plantilla.git"
@@ -10,7 +11,8 @@ const proyectos = [
   {
     nombre: "Moodboard",
     descripcion:
-      "Plataforma de descubrimiento cultural basada en atmósferas con Angular y Spring Boot. Combina películas y libros (TMDB y Google Books), paletas de colores con ColorThief y bandas sonoras con pre-escucha (Deezer), además de filtros por estado de ánimo, ruleta aleatoria y gestión de favoritos.",
+      "Plataforma de descubrimiento cultural basada en atmósferas con backend en Spring Boot y frontend en Angular. Integré búsqueda de películas y libros (TMDB y Google Books), extracción de paletas de color con ColorThief, pre-escucha de canciones con Deezer, filtros por estado de ánimo, ruleta aleatoria y favoritos.",
+    tecnologias: ["Angular", "Spring Boot", "MySQL"],  
     imagen: "moodboard.png",
     url: "moodboard-eight-roan.vercel.app/",
     github: "https://github.com/gloriaarandia/Moodboard.git"
@@ -18,14 +20,16 @@ const proyectos = [
   {
     nombre: "Calculadora",
     descripcion:
-      "Calculadora utilizando HTML, CSS y Javascript.",
+      "Calculadora web interactiva con operaciones básicas, desarrollada con HTML, CSS y JavaScript para practicar lógica de interfaz y manipulación del DOM.",
+    tecnologias: ["HTML", "CSS", "Javascript"],
     imagen: "Calculadora.png",
     url: "https://calculadora-beta-one.vercel.app/",
     github: "https://github.com/gloriaarandia/Calculadora.git"
   },
   {
     nombre: "Mi portfolio",
-    descripcion: "Este portfolio hecho con React.",
+    descripcion: "Sitio web personal donde reúno mis proyectos, tecnologías y enlaces de contacto, desarrollado con React.",
+    tecnologias: ["React"],
     imagen: "Portfolio.png",
     url: "https://portfolio-ten-fawn-70.vercel.app/",
     github: "https://github.com/gloriaarandia/Portfolio.git"
@@ -44,6 +48,17 @@ function Projects() {
             
             <h3>{proyecto.nombre}</h3>
             <p>{proyecto.descripcion}</p>
+
+            {proyecto.tecnologias && (
+              <div className="project-tags">
+                {proyecto.tecnologias.map((tech, index) => (
+                  <span key={tech} className="project-tag">
+                    {tech}
+                    {index < proyecto.tecnologias.length - 1 && " · "}
+                  </span>
+                ))}
+              </div>
+            )}
 
             <div className="project-buttons">
                 <a href={proyecto.url} target="_blank" rel="noopener noreferrer">
